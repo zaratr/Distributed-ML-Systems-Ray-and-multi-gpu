@@ -1,0 +1,8 @@
+cluster_name: local-ray-demo
+max_workers: 1
+auth:
+  ssh_user: ubuntu
+head_node:
+  InstanceType: m5.large
+worker_nodes:
+  InstanceType: m5.large
